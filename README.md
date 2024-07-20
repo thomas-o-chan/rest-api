@@ -9,7 +9,7 @@ Each server module has its own readme for further details when working in this r
 
 # Getting started
 
-As this repo includes both a python and a vite server, there are multiple types of dependencies that must be installed.
+As this repo includes both a python and a vite server, there are multiple types of dependencies that must be installed. These instructions have been tested as a clean install on MacOS. While these instructions should work for all UNIX-based systems. 
 
 These can be installed at the same time by running the script in `install.sh`.
 
