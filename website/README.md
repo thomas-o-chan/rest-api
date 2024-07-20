@@ -11,6 +11,16 @@ There are a number of commands in this module that enable you to get up and runn
 
 The exact details on each of these can be found in the [package.json](package.json)
 
+# Testing
+
+You can run all tests (currently just 2) using:
+
+```
+npm test
+```
+
+Test suites are only indicative of unit tests, and is neither complete nor comprehensive.
+
 # Notes
 
 - It would be easier to implement the entire project contained within this repo into a single nodeJS project using a hyper-framework such as NextJS. This would remove the need for a python server entirely and allow everything to be hosted on one domain.

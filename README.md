@@ -41,7 +41,7 @@ I'm not that experienced with multi-language setups. This repo is therefore a hy
 
 # Testing
 
-The repo currently contains requirements lists for each module, but no automated tests have been added at this time. This would probably be good to do soon.
+The repo currently contains requirements lists for each module. It also contains some suggestions for manual tests on the API server and a simple unit test for a module in the website repo. It would be good to enhance these later and add integration test coverage in the future.
 
 # Notes & Troubleshooting
 
