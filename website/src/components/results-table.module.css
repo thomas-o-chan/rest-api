@@ -1,0 +1,29 @@
+@import "../variables.css";
+
+.container {
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  margin: var(--spacing-2);
+}
+
+.table {
+  margin: var(--spacing-1);
+  border-collapse: collapse;
+  background-color: var(--background-color);
+}
+
+.header,
+.row {
+  border: 1px solid var(--text-color);
+}
+
+.header {
+  border: 1px solid var(--text-color);
+  background-color: #0870aa50;
+}
+
+.cell {
+  padding: var(--spacing-0) var(--spacing-1);
+  border: 1px solid var(--text-color);
+  line-height: 1rem;
+}

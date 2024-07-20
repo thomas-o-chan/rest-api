@@ -1,0 +1,16 @@
+@import "../variables.css";
+
+.header {
+  width: 100vw;
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.header_title {
+  margin: 0px;
+  font-size: 32px;
+  color: var(--text-color);
+}

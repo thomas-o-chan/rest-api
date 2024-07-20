@@ -1,0 +1,31 @@
+@import "../variables.css";
+
+:root {
+  --box-fill-color: #111;
+}
+
+.container {
+  display: flex;
+  border: 1px solid var(--primary-color);
+  border-radius: calc(var(--border-radius) + 2px);
+  background-color: var(--box-fill-color);
+}
+
+.text_entry {
+  border-radius: var(--border-radius);
+  font-size: 20px;
+  line-height: 36px;
+  vertical-align: middle;
+  max-height: 37px;
+  padding: 0px var(--spacing-0);
+  margin-right: var(--spacing-0);
+  text-wrap: nowrap;
+  overflow: scroll;
+  border: none;
+  resize: none;
+  background-color: var(--box-fill-color);
+}
+
+.button {
+  height: 40px;
+}
