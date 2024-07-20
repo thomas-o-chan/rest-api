@@ -6,6 +6,11 @@ export const viewNameIndex: Record<View, string> = {
   codewordSearch: "Search by Codeword",
 };
 
+export const resultNameIndex: Partial<Record<View, string>> = {
+  idSearch: "Ids",
+  codewordSearch: "Codeword",
+};
+
 export async function processResponse(response: Response) {
   const contentType = response.headers.get("content-type");
   if (contentType && contentType.includes("application/json")) {

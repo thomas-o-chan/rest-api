@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { viewNameIndex } from "./libs/utils";
+import { resultNameIndex, viewNameIndex } from "./libs/utils";
 import { ResultsTable } from "./components/ResultsTable";
 import { Button } from "./components/Button";
 import getActionIds from "./libs/get-action-ids";
@@ -29,7 +29,7 @@ export function RunQueryView({ view, setView }: RunQueryViewProps) {
     <div className={styles.container}>
       <h2>{viewNameIndex[view]}</h2>
       <TextEntryWithSubmit submitAction={submitActions[view]} />
-      <ResultsTable header={view} results={queryResult} />
+      <ResultsTable header={resultNameIndex[view] || view} results={queryResult} />
       <Button onClick={() => setView("selectQuery")}>Back</Button>
     </div>
   );
