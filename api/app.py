@@ -21,6 +21,7 @@ def get_actions(file: str) -> dict:
         json_data.close()
         return raw_data['actions']
 
+# TODO handle string paths gracefully, rather than returning 404s
 @app.route('/action/<int:codeword>', methods=['POST', 'GET', 'OPTIONS'])
 def get_actions_by_codeword(codeword: int):
     if request.method == "OPTIONS":

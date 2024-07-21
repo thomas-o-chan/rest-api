@@ -1,10 +1,11 @@
 import getActionIds from "./get-action-ids";
 
+// TODO move into a util
+// Mocks the fetch global (not complete).
 global.fetch = jest.fn((path: string) => {
   const responses: Record<string, string[]> = {
     [`http://localhost:3000/codeword/validCodeword`]: ["action1", "action2"],
   };
-  console.log(responses[path]);
   return Promise.resolve({
     json: () => Promise.resolve(responses[path] || "codeword not found"),
     headers: {
