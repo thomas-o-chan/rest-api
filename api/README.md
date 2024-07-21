@@ -8,8 +8,6 @@ To start the server, run:
 zsh start.sh
 ```
 
-
-
 # Tests
 This module currently has no automated tests, although a framework of requirements are listed in [the test file](test.sh)
 You can run tests manually using:

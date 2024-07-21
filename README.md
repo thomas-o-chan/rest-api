@@ -39,6 +39,8 @@ cd website && npm run dev
 
 I'm not that experienced with multi-language setups. This repo is therefore a hybrid of mono and classical repo structures. This could definitely be improved.
 
+These scripts use zsh as a runner, but you should be able to use any shell alternatives instead.
+
 # Testing
 
 The repo currently contains requirements lists for each module. It also contains some suggestions for manual tests on the API server and a simple unit test for a module in the website repo. It would be good to enhance these later and add integration test coverage in the future.
